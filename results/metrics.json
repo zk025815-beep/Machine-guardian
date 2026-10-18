@@ -1,0 +1,85 @@
+{
+  "rows": 10000,
+  "missing": 0,
+  "duplicates": 0,
+  "class_counts": {
+    "0": 9661,
+    "1": 339
+  },
+  "split": {
+    "train": 7000,
+    "validation": 1500,
+    "test": 1500
+  },
+  "threshold": 0.40000000000000013,
+  "validation": {
+    "precision": 0.8297872340425532,
+    "recall": 0.7647058823529411,
+    "f1": 0.7959183673469388,
+    "average_precision": 0.8017336067874761,
+    "accuracy": 0.9866666666666667,
+    "confusion_matrix": [
+      [
+        1441,
+        8
+      ],
+      [
+        12,
+        39
+      ]
+    ]
+  },
+  "test": {
+    "precision": 0.8837209302325582,
+    "recall": 0.7450980392156863,
+    "f1": 0.8085106382978723,
+    "average_precision": 0.8533361233621716,
+    "accuracy": 0.988,
+    "confusion_matrix": [
+      [
+        1444,
+        5
+      ],
+      [
+        13,
+        38
+      ]
+    ]
+  },
+  "baseline": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "average_precision": 0.034,
+    "accuracy": 0.966,
+    "confusion_matrix": [
+      [
+        1449,
+        0
+      ],
+      [
+        51,
+        0
+      ]
+    ]
+  },
+  "ordered_test": {
+    "precision": 0.8095238095238095,
+    "recall": 0.5862068965517241,
+    "f1": 0.68,
+    "average_precision": 0.6565979918415272,
+    "accuracy": 0.9893333333333333,
+    "confusion_matrix": [
+      [
+        1467,
+        4
+      ],
+      [
+        12,
+        17
+      ]
+    ]
+  },
+  "ordered_threshold": 0.45000000000000007,
+  "sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e"
+}
